@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+li a button {
+  background-color: transparent !important;
+}
+li a button span {
+  color: black;
+}
+li a button:focus {
+  border: none !important;
+}
