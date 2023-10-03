@@ -35,8 +35,8 @@ const Partner = () => {
       <div className=" container mx-auto">
         <div className="slider_partner">
           <div className="slide-track">
-            {Partner.map((parent) => (
-              <div className="slide relative">
+            {Partner.map((parent, i) => (
+              <div className="slide relative " key={i}>
                 <Image
                   src={`/PartnerImage${parent.img}`}
                   alt="Partner"

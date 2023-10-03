@@ -44,8 +44,11 @@ validation, MVP and technic solution, marketing strategy and branding, IP protec
         <h1 className="font-[700] text-[45px] mb-[50px]">Blog</h1>
         <div className=" gap-7 grid grid-rows-3 md:grid-rows-1 grid-cols-1 md:grid-cols-3">
           {' '}
-          {blog.map((blog) => (
-            <div className=" border-2 ease-in duration-300  hover:shadow-xl hover:translate-y-1	 ">
+          {blog.map((blog, i) => (
+            <div
+              className=" border-2 ease-in duration-300  hover:shadow-xl hover:translate-y-1	 "
+              key={i}
+            >
               <div className=" h-[230px] relative">
                 <Image src={blog.img} alt={blog.alt} fill={true} />{' '}
                 <div className=" absolute z-10 top-[200px] right-8 bg-[#e6202d] p-4 text-white text-[24px] cursor-pointer ">
