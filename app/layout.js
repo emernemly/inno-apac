@@ -1,4 +1,5 @@
-import Navbar from './componet/Navbar/Nav';
+import Footer from './Footer/Footer';
+import ScrollUp from './componet/ScrollUp/ScrollUp';
 import './globals.css';
 import { Inter } from 'next/font/google';
 
@@ -14,8 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {' '}
-        <Navbar />
+        <ScrollUp />
         {children}
+        <Footer />
       </body>
     </html>
   );
