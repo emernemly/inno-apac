@@ -35,7 +35,7 @@ const Nav = () => {
               href="/About"
               className="flex dropdawnButton items-center  font-[600] text-[15px] hover:text-[#e6202d]"
             >
-              ABOUT
+              ABOUT_US
             </a>
             <Navbar.Link href="#" className="dropdawnButton">
               <Dropdown
