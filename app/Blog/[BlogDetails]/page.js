@@ -51,8 +51,8 @@ validation, MVP and technic solution, marketing strategy and branding, IP protec
       {pathname &&
         blog
           .filter((blog) => blog.id === pathname.BlogDetails)
-          .map((blog) => (
-            <div>
+          .map((blog, i) => (
+            <div key={i}>
               <div
                 className={`w-[100%] h-[450px] relative bg-[url('/serviceImage.webp')] bg-no-repeat bg-cover bg-center`}
               >

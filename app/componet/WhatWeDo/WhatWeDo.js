@@ -26,7 +26,7 @@ const WhatWeDo = () => {
             </p>
             <br></br>
             <p>
-              INNO-APAC's vision is to create an international and digital
+              INNO-APAC&apos;s vision is to create an international and digital
               technology innovation ecosystem in APAC Region.
             </p>
           </div>
