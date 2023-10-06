@@ -23,7 +23,11 @@ const ChooseUs = () => {
                 <h4 className="font-[600] text-[20px] mb-[10px]">
                   Benifical Invest
                 </h4>
-                <p>Lorem ipsum dolor sit amet consecte</p>
+                <p>
+                  {' '}
+                  Experience the advantage of strategic investments that drive
+                  growth and innovation.
+                </p>
               </div>
             </div>
             <div className=" flex flex-row gap-5 items-center  p-5 bg-white">
@@ -32,7 +36,10 @@ const ChooseUs = () => {
                 <h4 className="font-[600] text-[20px] mb-[10px]">
                   Best Solution
                 </h4>
-                <p>Lorem ipsum dolor sit amet consecte</p>
+                <p>
+                  We tailor our strategies to your unique financial goals,
+                  ensuring optimal outcomes
+                </p>
               </div>
             </div>
             <div className=" flex flex-row gap-5 items-center  p-5 bg-white">
@@ -41,7 +48,10 @@ const ChooseUs = () => {
                 <h4 className="font-[600] text-[20px] mb-[10px]">
                   Quick Support
                 </h4>
-                <p>Lorem ipsum dolor sit amet consecte</p>
+                <p>
+                  Count on our responsive and agile support for rapid solutions
+                  and seamless progress
+                </p>
               </div>
             </div>
           </div>

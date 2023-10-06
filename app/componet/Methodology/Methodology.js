@@ -14,18 +14,23 @@ const Methodology = () => {
             Methodology
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit sed do ei
-            usmod tempor incididunt.enim ad minim veniam, quis nostrud exer
-            citation ullamco laboris nisi ut aliquip ex ea commodo con sequat
-            duis aute irure dolor. excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est labo
-            rum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore.
+            One of our key strengths in INNO-APAC is our ability to facilitate
+            international technology transformation, ensuring that our clients
+            stay at the forefront of global innovation trends. Furthermore, we
+            actively promote industry investments to foster growth and
+            development within the region.
+          </p>
+          <br />
+          <p>
+            INNO-APAC operates from its strategic base in Shanghai, where we
+            serve as a hub for technology innovation resources from both the
+            Asia-Pacific region and around the world. Our vision is to build an
+            international and digital technology innovation ecosystem within the
+            APAC Region, and we are dedicated to making this vision a reality.
           </p>
           <br />
           <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
-            CONTACT US
+            <a href="/Contact"> CONTACT US</a>
           </button>
         </div>
       </div>

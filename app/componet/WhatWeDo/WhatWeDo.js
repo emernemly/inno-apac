@@ -15,19 +15,19 @@ const WhatWeDo = () => {
               We Do?
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do ei
-              usmod tempor incididunt.enim ad minim veniam, quis nostrud exer
-              citation ullamco laboris nisi ut aliquip ex ea commodo con sequat
-              duis aute irure dolor. excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              labo rum. Sed ut perspiciatis unde omnis iste natus error sit
-              voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore.
+              INNO-APAC is committed to providing Government, Industry Parks and
+              Corporate Enterprises with a complete set of technology innovation
+              solution including innovation & incubation service (competition,
+              bootcamp, workshop,intrapreneurship), international technology
+              transformation, industry investment promotion, innovation center
+              operation, etc.. INNO-APAC is based in Shanghai and linking
+              technology innovation resources from Asia-Pacific region and
+              globally.
             </p>
             <br></br>
             <p>
-              Enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-              fugit sed quia consequuntur.
+              INNO-APAC's vision is to create an international and digital
+              technology innovation ecosystem in APAC Region.
             </p>
           </div>
           <div className="grid  gap-5 grid-cols-1 md:grid-cols-2">

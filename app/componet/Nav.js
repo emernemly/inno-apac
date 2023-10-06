@@ -1,6 +1,7 @@
+'use client';
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { Navbar, Dropdown, Item } from 'flowbite-react';
+import { Navbar } from 'flowbite-react';
 
 import Image from 'next/image';
 
@@ -37,39 +38,13 @@ const Nav = () => {
             >
               ABOUT_US
             </a>
-            <Navbar.Link href="#" className="dropdawnButton">
-              <Dropdown
-                dismissOnClick={false}
-                label="SERVICE"
-                className="  font-[600] dropdawnButton"
-              >
-                <Dropdown.Item
-                  href="/Overseas"
-                  className="hover:text-[#e6202d]"
-                >
-                  Overseas Talent{' '}
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="/InvestmentPromotion"
-                  className="hover:text-[#e6202d]"
-                >
-                  Investment Promotion
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="/EntrepreneurshipService"
-                  className="hover:text-[#e6202d]"
-                >
-                  {' '}
-                  Entrepreneurship Service
-                </Dropdown.Item>
-                <Dropdown.Item
-                  href="/IncubationOperation"
-                  className="hover:text-[#e6202d]"
-                >
-                  Incubation Operation
-                </Dropdown.Item>
-              </Dropdown>
-            </Navbar.Link>
+            <a
+              active
+              href="/Services/OverseasTalent"
+              className="flex dropdawnButton items-center font-[600] text-[15px] hover:text-[#e6202d]"
+            >
+              <p>SERVICES</p>
+            </a>
             <a
               href="/Blog"
               className="flex items-center  font-[600] text-[15px] dropdawnButton hover:text-[#e6202d]"

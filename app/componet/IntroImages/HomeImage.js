@@ -15,10 +15,10 @@ const HomeImage = () => {
         <div className="flex gap-6 pt-7 md:flex-row flex-col">
           <button className="font-[700] text-white bg-[#e6202d] tracking-wide text-[16px] py-[10px] px-[40px]">
             {' '}
-            OUR SERVICE
+            <a href="/Services/OverseasTalent"> OUR SERVICE</a>
           </button>
           <button className="font-[700] py-[10px] px-[40px] tracking-wide  border-white border-2 text-white bg-transparent text-[16px] ">
-            CONTACT US
+            <a href="/Contact">CONTACT US</a>
           </button>
         </div>
       </div>

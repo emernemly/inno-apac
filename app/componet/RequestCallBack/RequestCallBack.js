@@ -9,7 +9,7 @@ const RequestCallBack = () => {
   const [count, setCount] = useState(false);
 
   return (
-    <section className="bg-[url(/backraoundRequaset.webp)] bg-no-repeat bg-fixed relative">
+    <section className="bg-[url(/backraoundRequaset.webp)] bg-cover bg-no-repeat bg-fixed relative">
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] "></div>
       <div className=" z-10 relative container mx-auto grid gap-5   md:grid-rows-1 grid-cols-1 md:grid-cols-2">
         {' '}

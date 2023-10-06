@@ -1,7 +1,14 @@
 import React from 'react';
+import BlogIntro from '../componet/IntroImages/BlogIntro';
+import BlogProfile from '../componet/BlogProfile/BlogProfile';
 
 const blog = () => {
-  return <div>blog</div>;
+  return (
+    <main>
+      <BlogIntro />
+      <BlogProfile />
+    </main>
+  );
 };
 
 export default blog;

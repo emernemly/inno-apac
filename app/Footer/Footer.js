@@ -5,9 +5,9 @@ import {
   BiLogoInstagramAlt,
   BiLogoLinkedin,
 } from 'react-icons/bi';
-import { ImLocation } from 'react-icons/im';
-import { BsTelephoneFill } from 'react-icons/bs';
-import { MdEmail } from 'react-icons/md';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BiPhoneCall } from 'react-icons/bi';
+import { GoLocation } from 'react-icons/go';
 const Footer = () => {
   return (
     <section className=" bg-[#191d26] relative">
@@ -17,12 +17,15 @@ const Footer = () => {
           <Image
             src="/inno-apac.png"
             alt="inno-apac"
-            width={150}
-            height={150}
+            width={100}
+            height={100}
           />
           <p className=" my-5">
-            Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor
-            incidi dunt labore dolore magna aliqua enim ad minim veniam.
+            Cultivating Innovation, Empowering Growth - INNO-APAC is your
+            strategic partner for technology innovation and investment
+            solutions. Let us help you unlock new possibilities and drive
+            progress. Contact us today to embark on your journey towards a
+            brighter future
           </p>
           <div className="flex gap-3 ">
             <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
@@ -48,13 +51,24 @@ const Footer = () => {
           </h2>
           <ul className="md:h-[198px]">
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
-              {'>'} <a className=" ml-2"> About Us</a>
+              {'>'}{' '}
+              <a className=" ml-2" href="/About">
+                {' '}
+                About Us
+              </a>
             </li>
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
-              {'>'} <a className=" ml-2"> Contact Us</a>
+              {'>'}{' '}
+              <a className=" ml-2" href="/Contact">
+                {' '}
+                Contact Us
+              </a>
             </li>
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
-              {'>'} <a className=" ml-2">Services</a>
+              {'>'}{' '}
+              <a className=" ml-2" href="/Services/OverseasTalent">
+                Services
+              </a>
             </li>
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
               {'>'}
@@ -68,16 +82,18 @@ const Footer = () => {
           </h2>
           <ul className="md:h-[198px]">
             <li className="mb-[16px] flex md:items-center md:justify-center ">
-              <ImLocation className=" text-[#e6202d] text-[70px] mr-5" />{' '}
-              <p>Qinzhou Road, Xuhui District, Shanghai, Shanghai 201506, CN</p>
+              <GoLocation className=" text-[#e6202d] text-[23px] mr-5 " />{' '}
+              <p className="w-[50%] ">
+                Qinzhou Road, Xuhui District, Shanghai, Shanghai 201506, CN
+              </p>
             </li>
             <li className="mb-[16px] flex md:items-center md:justify-center ">
-              <BsTelephoneFill className=" text-[#e6202d] text-[40px] mr-5" />
-              <p>+86-180 1713 2336 (Wechat)</p>
+              <BiPhoneCall className=" text-[#e6202d] text-[23px] mr-5 " />
+              <p className="w-[50%] ">+86-180 1713 2336 (Wechat)</p>
             </li>
             <li className="mb-[16px] flex md:items-center md:justify-center ">
-              <MdEmail className=" text-[#e6202d] text-[40px] mr-5" />{' '}
-              <p>zhangshuanghong@126.com</p>
+              <AiOutlineMail className=" text-[#e6202d] text-[23px] mr-5" />{' '}
+              <p className="w-[50%] ">zhangshuanghong@126.com</p>
             </li>
           </ul>
         </div>

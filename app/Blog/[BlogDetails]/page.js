@@ -1,7 +1,10 @@
+'use client';
+import Nav from '@/app/componet/Nav';
 import Image from 'next/image';
+import { usePathname, useParams } from 'next/navigation';
 import React from 'react';
-import { FaLongArrowAltRight } from 'react-icons/fa';
-const BlogProfile = () => {
+
+const BlogDetails = () => {
   const blog = [
     {
       img: '/Shanghai.webp',
@@ -41,40 +44,44 @@ validation, MVP and technic solution, marketing strategy and branding, IP protec
       id: '3',
     },
   ];
+  const pathname = useParams();
+  console.log(blog.filter((blog) => blog.id === pathname.BlogDetails));
   return (
-    <section>
-      <div className="container mx-auto">
-        <h1 className="font-[700] text-[45px] mb-[50px]">Blog</h1>
-        <div className=" gap-7 grid grid-rows-3 md:grid-rows-1 grid-cols-1 md:grid-cols-3">
-          {' '}
-          {blog.map((blog, i) => (
-            <div
-              className=" border-2 ease-in duration-300  hover:shadow-xl hover:translate-y-1	 "
-              key={i}
-            >
-              <div className=" h-[230px] relative">
-                <Image src={blog.img} alt={blog.alt} fill={true} />{' '}
-                <div className=" absolute z-10 top-[200px] right-8 bg-[#e6202d] p-4 text-white text-[24px] cursor-pointer ">
-                  {' '}
-                  <a href={`/Blog/${blog.id}`}>
-                    <FaLongArrowAltRight />
-                  </a>
+    <div>
+      {pathname &&
+        blog
+          .filter((blog) => blog.id === pathname.BlogDetails)
+          .map((blog) => (
+            <div>
+              <div
+                className={`w-[100%] h-[450px] relative bg-[url('/serviceImage.webp')] bg-no-repeat bg-cover bg-center`}
+              >
+                <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] z-10"></div>
+                <Nav />
+                <div className="flex-col z-20  absolute top-[50%]  font-[700] md:w-[100%] flex items-center justify-center text-center	">
+                  <h1 className=" text-white md:w-[50%] text-[48px]  w-[100%] md:text-[60px] ">
+                    {' '}
+                    Blog Details
+                  </h1>
                 </div>
               </div>
-              <div className=" p-5 blog">
-                <h4 className="font-[600] text-[20px] my-3">
-                  <a href={`/Blog/${blog.id}`} className=" cursor-pointer">
-                    {blog.title}{' '}
-                  </a>
-                </h4>
-                <p>{blog.description}</p>
-              </div>
+              <section>
+                <div className="container mx-auto  grid gap-5   md:grid-rows-1 grid-cols-1 md:grid-cols-2">
+                  <div>
+                    <h1 className="font-[700] text-[45px] mb-[50px]">
+                      {blog.title}
+                    </h1>
+                    <p>{blog.description}</p>
+                  </div>
+                  <div className="relative h-[500px] ">
+                    <Image src={blog.img} alt="Methodology" fill={true} />
+                  </div>
+                </div>
+              </section>
             </div>
           ))}
-        </div>
-      </div>
-    </section>
+    </div>
   );
 };
 
-export default BlogProfile;
+export default BlogDetails;

@@ -13,10 +13,11 @@ const Mission = () => {
             <h4 className="font-[600] text-[20px] mb-[20px]">Our Mission</h4>
           </div>{' '}
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis natus error sit voluptatem accusantium doloremque laud
-            antium totam remaperiam.
+            Our mission is to bridge the gap between the Asia-Pacific region and
+            global innovation resources, creating opportunities for
+            collaboration, expansion, and advancement. We are dedicated to being
+            the catalyst for positive change, innovation, and success in the
+            industries we serve.
           </p>
         </div>{' '}
         <div className=" bg-[#edeff2] flex flex-col  px-8 py-6 ">
@@ -26,10 +27,11 @@ const Mission = () => {
             <h4 className="font-[600] text-[20px] mb-[20px]">Our Vision</h4>
           </div>{' '}
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis natus error sit voluptatem accusantium doloremque laud
-            antium totam remaperiam.
+            We envision a world where businesses, entrepreneurs, and innovators
+            have seamless access to cutting-edge resources, global networks, and
+            transformative opportunities. Our goal is to serve as a bridge,
+            linking technology innovation resources from the Asia-Pacific region
+            and beyond.
           </p>
         </div>{' '}
       </div>

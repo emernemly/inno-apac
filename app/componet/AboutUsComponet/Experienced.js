@@ -13,18 +13,20 @@ const Experienced = () => {
               We Are?
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit sed do ei
-              usmod tempor incididunt.enim ad minim veniam, quis nostrud exer
-              citation ullamco laboris nisi ut aliquip ex ea commodo con sequat
-              duis aute irure dolor. excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              labo rum. Sed ut perspiciatis unde omnis iste natus error sit
-              voluptatem accusantium doloremque laudantium, totam rem aperiam,
-              eaque ipsa quae ab illo inventore.
+              INNO-APAC is a leading provider of technology innovation
+              solutions, serving Government, Industry Parks, and Corporate
+              Enterprises. Our expertise lies in delivering a comprehensive set
+              of services tailored to meet the diverse needs of our clients.
+            </p>
+            <br></br>
+            <p>
+              Located in the vibrant city of Shanghai, we are strategically
+              positioned to connect technology innovation resources across the
+              Asia-Pacific region and around the world.
             </p>
             <br></br>
             <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
-              CONTACT US
+              <a href="/Contact">CONTACT US</a>
             </button>
           </div>
           <div className="grid  gap-5 grid-cols-1 md:grid-cols-2 relative h-[300px] md:h-[100%]">
