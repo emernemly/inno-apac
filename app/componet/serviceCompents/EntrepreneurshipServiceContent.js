@@ -24,7 +24,7 @@ const EntrepreneurshipServiceContent = () => {
           Our Entrepreneurship Service at INNO-APAC is your gateway to realizing
           your entrepreneurial dreams. We provide a comprehensive suite of
           services designed to nurture your innovation and business ambitions.
-          Here's an overview of our offerings:
+          Here&apos;s an overview of our offerings:
         </p>
         <br></br>
         <div>

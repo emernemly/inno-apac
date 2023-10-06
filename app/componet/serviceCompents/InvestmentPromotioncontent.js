@@ -13,11 +13,11 @@ const InvestmentPromotioncontent = () => {
           Investment Promotion
         </h1>
         <p>
-          INNO-APAC's Investment Promotion service is your trusted partner for
-          navigating the intricate landscape of investments. We are committed to
-          helping you secure the financial support you need to thrive in today's
-          competitive business environment. Let us guide you towards a
-          prosperous future.
+          INNO-APAC&apos;s Investment Promotion service is your trusted partner
+          for navigating the intricate landscape of investments. We are
+          committed to helping you secure the financial support you need to
+          thrive in today&apos;s competitive business environment. Let us guide
+          you towards a prosperous future.
         </p>
         <br></br>
         <p>
@@ -38,9 +38,9 @@ const InvestmentPromotioncontent = () => {
           <p>
             We are passionate about nurturing tech startups and talent. Through
             our extensive network and expertise, we connect promising tech
-            ventures with investors who share their vision. Whether you're a
-            budding entrepreneur or an established tech company, we can help you
-            secure the funding needed to innovate and expand.
+            ventures with investors who share their vision. Whether you&apos;re
+            a budding entrepreneur or an established tech company, we can help
+            you secure the funding needed to innovate and expand.
           </p>
         </div>
         <br></br>

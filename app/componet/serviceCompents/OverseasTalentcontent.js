@@ -12,9 +12,9 @@ const OverseasTalentcontent = () => {
           Overseas Talent
         </h1>
         <p>
-          China's technological advancements have made it a global ledder in
-          innovation. this exclusive trip offers talented individuals a chance
-          to explore China{"'"}s thriving ecosystems, visit tech giants,
+          China&apos;s technological advancements have made it a global ledder
+          in innovation. this exclusive trip offers talented individuals a
+          chance to explore China{"'"}s thriving ecosystems, visit tech giants,
           universities and startups, and gain insights into key sectors like
           GreenTech, EV, IoT, AI, Digital Health. Smart Factories, OEM, ond
           E-commerce. Join us to witness groundbreaking innovations that have
@@ -39,7 +39,7 @@ const OverseasTalentcontent = () => {
               <div className="flex items-center">
                 City: Beijing <br />
                 Itinerary: Day O to Day 2, <br />
-                China's Silicon Valley <br />
+                China&apos;s Silicon Valley <br />
                 Tsinghua University, TikTok Great Wall..
               </div>
             </div>

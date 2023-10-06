@@ -17,19 +17,20 @@ const IncubationOperationContent = () => {
           Incubation Operation
         </h1>
         <p>
-          INNO-APAC's Incubation Operation service is your partner in innovation
-          and growth. Whether you're a startup, an established business, or an
-          innovator with a vision, we are committed to providing you with the
-          tools, resources, and support needed to thrive in today's competitive
-          landscape. Join us in shaping the future of innovation.
+          INNO-APAC&apos;s Incubation Operation service is your partner in
+          innovation and growth. Whether you&apos;re a startup, an established
+          business, or an innovator with a vision, we are committed to providing
+          you with the tools, resources, and support needed to thrive in
+          today&apos;s competitive landscape. Join us in shaping the future of
+          innovation.
         </p>
         <br></br>
         <p>
           At INNO-APAC, our Incubation Operation service is dedicated to
           fostering innovation and cultivating thriving startups and ventures.
           We provide a holistic ecosystem that supports entrepreneurs and
-          innovators at every stage of their journey. Here's an overview of our
-          Incubation Operation offerings:
+          innovators at every stage of their journey. Here&apos;s an overview of
+          our Incubation Operation offerings:
         </p>
         <br></br>
         <div>
@@ -44,8 +45,8 @@ const IncubationOperationContent = () => {
             We believe in hands-on support for startups and innovators. Our
             incubation programs include competitions, roadshows, and workshops
             that provide valuable opportunities for learning, networking, and
-            showcasing your ideas. We're here to help you refine your concepts
-            and gain exposure.
+            showcasing your ideas. We&apos;re here to help you refine your
+            concepts and gain exposure.
           </p>
         </div>
         <br></br>
@@ -58,10 +59,10 @@ const IncubationOperationContent = () => {
             </h4>
           </div>{' '}
           <p>
-            Staying at the forefront of technology is crucial in today's global
-            landscape. INNO-APAC facilitates international technology transfer,
-            connecting you with cutting-edge innovations and expertise from
-            around the world. We ensure that you have access to the latest
+            Staying at the forefront of technology is crucial in today&apos;s
+            global landscape. INNO-APAC facilitates international technology
+            transfer, connecting you with cutting-edge innovations and expertise
+            from around the world. We ensure that you have access to the latest
             advancements to drive your projects forward.
           </p>
         </div>
