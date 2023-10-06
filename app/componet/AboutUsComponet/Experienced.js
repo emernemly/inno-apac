@@ -25,9 +25,12 @@ const Experienced = () => {
               Asia-Pacific region and around the world.
             </p>
             <br></br>
-            <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
-              <a href="/Contact">CONTACT US</a>
-            </button>
+            <a href="/Contact">
+              {' '}
+              <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
+                CONTACT US
+              </button>
+            </a>
           </div>
           <div className="grid  gap-5 grid-cols-1 md:grid-cols-2 relative h-[300px] md:h-[100%]">
             <Image src="/innoApacDo.png" alt="inno-apac team" fill={true} />

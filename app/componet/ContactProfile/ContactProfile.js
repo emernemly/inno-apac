@@ -11,9 +11,12 @@ const ContactProfile = () => {
         <h3 className="text-[#ffffffb3] text-[16px] mb-[30px] mt-[25px]">
           Join your hand with us for a better life and beautiful future
         </h3>
-        <button className=" font-[700] bg-[#e6202d] text-white  px-5 py-3">
-          <a href="/Contact">CONTACT US</a>
-        </button>
+        <a href="/Contact">
+          {' '}
+          <button className=" font-[700] bg-[#e6202d] text-white  px-5 py-3">
+            CONTACT US
+          </button>
+        </a>
       </div>
     </section>
   );

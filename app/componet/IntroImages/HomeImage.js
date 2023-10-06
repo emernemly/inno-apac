@@ -13,13 +13,19 @@ const HomeImage = () => {
           Expand Your Business With INNO-APAC
         </h1>
         <div className="flex gap-6 pt-7 md:flex-row flex-col">
-          <button className="font-[700] text-white bg-[#e6202d] tracking-wide text-[16px] py-[10px] px-[40px]">
+          <a href="/Services/OverseasTalent">
             {' '}
-            <a href="/Services/OverseasTalent"> OUR SERVICE</a>
-          </button>
-          <button className="font-[700] py-[10px] px-[40px] tracking-wide  border-white border-2 text-white bg-transparent text-[16px] ">
-            <a href="/Contact">CONTACT US</a>
-          </button>
+            <button className="font-[700] text-white bg-[#e6202d] tracking-wide text-[16px] py-[10px] px-[40px]">
+              {' '}
+              OUR SERVICE
+            </button>
+          </a>
+          <a href="/Contact">
+            {' '}
+            <button className="font-[700] py-[10px] px-[40px] tracking-wide  border-white border-2 text-white bg-transparent text-[16px] ">
+              CONTACT US
+            </button>
+          </a>
         </div>
       </div>
     </div>

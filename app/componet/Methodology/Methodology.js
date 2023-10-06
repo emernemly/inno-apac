@@ -29,9 +29,11 @@ const Methodology = () => {
             APAC Region, and we are dedicated to making this vision a reality.
           </p>
           <br />
-          <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
-            <a href="/Contact"> CONTACT US</a>
-          </button>
+          <a href="/Contact">
+            <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
+              CONTACT US
+            </button>
+          </a>
         </div>
       </div>
     </section>
