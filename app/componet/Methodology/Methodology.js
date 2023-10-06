@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const Methodology = () => {
@@ -29,11 +30,11 @@ const Methodology = () => {
             APAC Region, and we are dedicated to making this vision a reality.
           </p>
           <br />
-          <a href="/Contact">
+          <Link href="/Contact">
             <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3">
               CONTACT US
             </button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

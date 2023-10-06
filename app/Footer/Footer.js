@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import React from 'react';
 import {
@@ -8,6 +9,7 @@ import {
 import { AiOutlineMail } from 'react-icons/ai';
 import { BiPhoneCall } from 'react-icons/bi';
 import { GoLocation } from 'react-icons/go';
+import Link from 'next/link';
 const Footer = () => {
   return (
     <section className=" bg-[#191d26] relative">
@@ -52,27 +54,23 @@ const Footer = () => {
           <ul className="md:h-[198px]">
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
               {'>'}{' '}
-              <a className=" ml-2" href="/About">
+              <Link className=" ml-2" href="/About">
                 {' '}
                 About Us
-              </a>
+              </Link>
             </li>
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
               {'>'}{' '}
-              <a className=" ml-2" href="/Contact">
+              <Link className=" ml-2" href="/Contact">
                 {' '}
                 Contact Us
-              </a>
+              </Link>
             </li>
             <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
               {'>'}{' '}
-              <a className=" ml-2" href="/Services/OverseasTalent">
+              <Link className=" ml-2" href="/Services/OverseasTalent">
                 Services
-              </a>
-            </li>
-            <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
-              {'>'}
-              <a className=" ml-2">Privacy Policy</a>
+              </Link>
             </li>
           </ul>
         </div>

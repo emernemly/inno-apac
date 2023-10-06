@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 const BlogProfile = () => {
@@ -54,18 +55,19 @@ validation, MVP and technic solution, marketing strategy and branding, IP protec
             >
               <div className=" h-[230px] relative">
                 <Image src={blog.img} alt={blog.alt} fill={true} />{' '}
-                <div className=" absolute z-10 top-[200px] right-8 bg-[#e6202d] p-4 text-white text-[24px] cursor-pointer ">
+                <Link href={`/Blog/${blog.id}`}>
                   {' '}
-                  <a href={`/Blog/${blog.id}`}>
+                  <div className=" absolute z-10 top-[200px] right-8 bg-[#e6202d] p-4 text-white text-[24px] cursor-pointer ">
+                    {' '}
                     <FaLongArrowAltRight />
-                  </a>
-                </div>
+                  </div>{' '}
+                </Link>
               </div>
               <div className=" p-5 blog">
                 <h4 className="font-[600] text-[20px] my-3">
-                  <a href={`/Blog/${blog.id}`} className=" cursor-pointer">
+                  <Link href={`/Blog/${blog.id}`} className=" cursor-pointer">
                     {blog.title}{' '}
-                  </a>
+                  </Link>
                 </h4>
                 <p>{blog.description}</p>
               </div>

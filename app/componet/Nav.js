@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { Navbar } from 'flowbite-react';
 
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Nav = () => {
   const [show, setshow] = useState(false);
@@ -25,38 +26,38 @@ const Nav = () => {
           </button>
 
           <Navbar.Collapse className={show ? 'block' : 'hidden'}>
-            <a
+            <Link
               active
               href="/"
               className="flex dropdawnButton items-center font-[600] text-[15px] hover:text-[#e6202d]"
             >
               <p>HOME</p>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/About"
               className="flex dropdawnButton items-center  font-[600] text-[15px] hover:text-[#e6202d]"
             >
               ABOUT_US
-            </a>
-            <a
+            </Link>
+            <Link
               active
               href="/Services/OverseasTalent"
               className="flex dropdawnButton items-center font-[600] text-[15px] hover:text-[#e6202d]"
             >
               <p>SERVICES</p>
-            </a>
-            <a
+            </Link>
+            <Link
               href="/Blog"
               className="flex items-center  font-[600] text-[15px] dropdawnButton hover:text-[#e6202d]"
             >
               BLOG
-            </a>
-            <a
+            </Link>
+            <Link
               href="/Contact"
               className="flex items-center  font-[600] text-[15px] dropdawnButton hover:text-[#e6202d]"
             >
               CONTACT
-            </a>
+            </Link>
           </Navbar.Collapse>
         </Navbar>
       </div>

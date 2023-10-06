@@ -6,21 +6,28 @@ const SideBar = () => {
     <div className="bg-[#f7f8f9] p-5">
       <h4 className=" font-[600] text-[20px] mb-[20px]">Our Services</h4>
       <ul className=" ">
-        <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
-          <Link href="/Services/OverseasTalent">Overseas Talent</Link>{' '}
-        </li>
-        <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
-          <a href="/Services/InvestmentPromotion">Investment Promotion</a>
-        </li>
-        <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
-          <a href="/Services/EntrepreneurshipService">
-            Entrepreneurship Service
-          </a>
-        </li>
-        <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
+        <Link href="/Services/OverseasTalent">
+          <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
+            Overseas Talent{' '}
+          </li>
+        </Link>
+        <Link href="/Services/InvestmentPromotion">
+          <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
+            Investment Promotion
+          </li>
+        </Link>
+        <Link href="/Services/EntrepreneurshipService">
           {' '}
-          <a href="/Services/IncubationOperation">Incubation Operation</a>
-        </li>
+          <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
+            Entrepreneurship Service
+          </li>{' '}
+        </Link>
+        <Link href="/Services/IncubationOperation">
+          <li className=" my-5 border-b-[1px] py-3 border-b-[#dadcdf] ">
+            {' '}
+            Incubation Operation
+          </li>
+        </Link>
       </ul>
     </div>
   );
