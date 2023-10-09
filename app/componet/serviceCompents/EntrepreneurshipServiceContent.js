@@ -6,7 +6,7 @@ const EntrepreneurshipServiceContent = () => {
     <div>
       {' '}
       <div className=" relative w-[100%] h-[300px]">
-        <Image src="/Entrepr.webp" alt="Service" fill={true} />
+        <Image src="/newEnter.webp" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">

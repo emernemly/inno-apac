@@ -33,7 +33,7 @@ const CantactForm = () => {
           />
         </div>
         <button className=" font-[700] bg-[#e6202d] text-white md:w-[50%]  px-5 py-3">
-          Submit Now
+          SUBMIT NOW
         </button>
       </div>
     </section>
