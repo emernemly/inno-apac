@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import BlogIntro from '../componet/IntroImages/BlogIntro';
 import BlogProfile from '../componet/BlogProfile/BlogProfile';
 
@@ -6,9 +6,8 @@ const blog = () => {
   return (
     <main>
       <BlogIntro />
-      <Suspense>
-        <BlogProfile />
-      </Suspense>
+
+      <BlogProfile />
     </main>
   );
 };

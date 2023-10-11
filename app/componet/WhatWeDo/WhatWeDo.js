@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { BsGlobe2 } from 'react-icons/bs';
 import { BsFillBarChartFill, BsClipboardCheck } from 'react-icons/bs';
@@ -30,12 +31,17 @@ const WhatWeDo = () => {
               technology innovation ecosystem in APAC Region.
             </p>
           </div>
-          <div className="grid  gap-5 grid-cols-1 md:grid-cols-2">
+          <div className="grid  gap-5 grid-cols-1 md:grid-cols-2 content-center	">
             <div className="flex relative h-[200px] items-center justify-center ">
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] z-10"></div>
               <div className="absolute  gap-3 z-20 text-white text-center flex flex-col items-center text-[20px] ">
                 <BsGlobe2 className="text-[55px]" />
-                <b>Overseas Talent</b>
+                <Link
+                  href="/Services/OverseasTalent"
+                  className=" hover:text-[#e6202d]"
+                >
+                  <b>Overseas Talent</b>
+                </Link>
               </div>
               <Image
                 src="/OverseasTalentImage.avif"
@@ -47,7 +53,12 @@ const WhatWeDo = () => {
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] z-10"></div>
               <div className="absolute  gap-3 z-20 text-white text-center flex flex-col items-center text-[20px] ">
                 <BsFillBarChartFill className="text-[55px]" />
-                <b>Investment Promotion</b>
+                <Link
+                  href="/Services/InvestmentPromotion"
+                  className=" hover:text-[#e6202d]"
+                >
+                  <b>Investment Promotion</b>{' '}
+                </Link>
               </div>
               <Image
                 src="/InvestmentPromotionImage.webp"
@@ -59,7 +70,12 @@ const WhatWeDo = () => {
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] z-10"></div>
               <div className="absolute  gap-3 z-20 text-white text-center flex flex-col items-center text-[20px] ">
                 <HiOutlineLightBulb className="text-[55px]" />
-                <b>Entrepreneurship Service</b>
+                <Link
+                  href="/Services/EntrepreneurshipService"
+                  className=" hover:text-[#e6202d]"
+                >
+                  <b>Entrepreneurship Service</b>
+                </Link>
               </div>
               <Image
                 src="/EntrepreneurshipServiceImage.webp"
@@ -71,7 +87,12 @@ const WhatWeDo = () => {
               <div className="absolute top-0 left-0 right-0 bottom-0 bg-[#00000080] z-10"></div>
               <div className="absolute  gap-3 z-20 text-white text-center flex flex-col items-center text-[20px] ">
                 <BsClipboardCheck className="text-[55px]" />
-                <b>Incubation Operation</b>
+                <Link
+                  href="/Services/IncubationOperation"
+                  className=" hover:text-[#e6202d]"
+                >
+                  <b>Incubation Operation</b>{' '}
+                </Link>
               </div>
               <Image
                 src="/IncubationOperationImage.webp"

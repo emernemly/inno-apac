@@ -18,20 +18,20 @@ const ContactIntro = () => {
           </h1>
         </div>
       </div>
-      <div className="grid grid-rows-3 md:grid-rows-1 grid-cols-1 grid-cols-3">
-        <div className="flex justify-center items-center flex-col p-[40px] border-r-2 border-r-[#edeff2]">
+      <div className="grid grid-rows-3 md:grid-rows-1 grid-cols-1 md:grid-cols-3">
+        <div className="flex justify-center items-center text-center flex-col p-[40px] border-r-2 border-r-[#edeff2]">
           {' '}
           <CiLocationOn className=" text-[#e6202d] text-[30px] " />{' '}
           <p className=" h-5  mt-4">
             Qinzhou Road, Xuhui District, Shanghai, Shanghai 201506, CN
           </p>
         </div>
-        <div className="flex justify-center items-center flex-col p-[40px] border-r-2 border-r-[#edeff2]">
+        <div className="flex justify-center items-center text-center  flex-col p-[40px] border-r-2 border-r-[#edeff2]">
           {' '}
           <AiOutlinePhone className=" text-[#e6202d] text-[30px]" />
           <p className=" h-5 mt-4"> +86-180 1713 2336 (Wechat)</p>
         </div>
-        <div className="flex justify-center items-center flex-col p-[40px] border-r-2 border-r-[#edeff2]">
+        <div className="flex justify-center items-center text-center  flex-col p-[40px] border-r-2 border-r-[#edeff2]">
           {' '}
           <AiOutlineMail className=" text-[#e6202d] text-[30px] h-5" />{' '}
           <p className=" h-5  mt-4"> zhangshuanghong@126.com</p>

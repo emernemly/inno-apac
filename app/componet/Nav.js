@@ -19,8 +19,8 @@ const Nav = () => {
           <Navbar.Brand href="/">
             <Image
               alt="inno-apac"
-              width={80}
-              height={80}
+              width={100}
+              height={100}
               src="/inno-apac.png"
             />
           </Navbar.Brand>

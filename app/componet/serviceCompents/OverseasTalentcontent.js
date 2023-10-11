@@ -178,6 +178,16 @@ const OverseasTalentcontent = () => {
             </li>
           </ul>
         </div>
+        <br></br>
+        <a
+          href="http://tinyurl.com/china-tech-tour"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className=" font-[700] bg-[#e6202d] text-white w-[50%]  px-5 py-3">
+            APPLY NOW
+          </button>
+        </a>
       </div>
     </div>
   );

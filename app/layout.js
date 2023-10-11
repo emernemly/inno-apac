@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import Footer from './Footer/Footer';
 import ScrollUp from './componet/ScrollUp/ScrollUp';
 import './globals.css';
@@ -15,9 +16,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {' '}
-        <ScrollUp />
-        {children}
-        <Footer />
+        <Suspense>
+          <ScrollUp />
+          {children}
+          <Footer />
+        </Suspense>
       </body>
     </html>
   );
