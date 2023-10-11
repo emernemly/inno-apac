@@ -63,7 +63,7 @@ const WhatWeDo = () => {
               <Image
                 src="/InvestmentPromotionImage.webp"
                 fill={true}
-                alt="Overseas Talent"
+                alt="Investment PromotionImage"
               />
             </div>
             <div className="flex relative h-[200px] items-center justify-center ">
@@ -80,7 +80,7 @@ const WhatWeDo = () => {
               <Image
                 src="/EntrepreneurshipServiceImage.webp"
                 fill={true}
-                alt="Overseas Talent"
+                alt="Entrepreneurship Service"
               />
             </div>
             <div className="flex relative h-[200px] items-center justify-center ">
@@ -97,7 +97,7 @@ const WhatWeDo = () => {
               <Image
                 src="/IncubationOperationImage.webp"
                 fill={true}
-                alt="Overseas Talent"
+                alt="Incubation Operation"
               />
             </div>
           </div>

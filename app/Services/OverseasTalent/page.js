@@ -2,7 +2,11 @@ import OverseasTalentImage from '@/app/componet/IntroImages/OverseasTalentImage'
 import OverseasTalentcontent from '@/app/componet/serviceCompents/OverseasTalentcontent';
 import SideBar from '@/app/componet/serviceCompents/SideBar';
 import React from 'react';
-
+export const metadata = {
+  title: 'Overseas Talent | INNO-APAC',
+  description:
+    'INNO-APAC: Your trusted partner for technology innovation solutions in China. We provide Investment Promotion, Entrepreneurship Services, Incubation Operations, and SEO expertise. Our mission is to empower growth, drive progress, and create a digital technology innovation ecosystem in the APAC region. Contact us today to unlock new possibilities and stay at the forefront of innovation.',
+};
 const OverseasTalent = () => {
   return (
     <main>

@@ -14,6 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.webp" sizes="any" />
+        <meta charset="utf-8" />
+        <meta
+          name="keywords"
+          content="INNO-APAC, technology innovation, investment promotion, entrepreneurship services, incubation operations, talents recruitment,Overseas Talent, APAC region, innovation ecosystem, business consulting, China"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body className={inter.className}>
         {' '}
         <Suspense>
