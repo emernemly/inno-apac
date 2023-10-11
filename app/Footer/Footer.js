@@ -30,7 +30,7 @@ const Footer = () => {
     try {
       setloading(true);
       const datas = await axios.post(
-        'http://localhost:4000/api/news-letter',
+        'https://inno-apac.onrender.com/api/news-letter',
         data
       );
       setloading(false);

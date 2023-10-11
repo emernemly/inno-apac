@@ -25,7 +25,10 @@ const RequestCallBack = () => {
   const onSubmit = async (data) => {
     try {
       setloading(true);
-      const datas = await axios.post('http://localhost:4000/api/contact', data);
+      const datas = await axios.post(
+        'https://inno-apac.onrender.com/api/contact',
+        data
+      );
       setloading(false);
       setsecc(true);
       seterr(false);
