@@ -22,6 +22,10 @@ export default function RootLayout({ children }) {
           content="INNO-APAC, technology innovation, investment promotion, entrepreneurship services, incubation operations, talents recruitment,Overseas Talent, APAC region, innovation ecosystem, business consulting, China"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="google-site-verification"
+          content="U9XgrZri9t5rKqA88avw_pPntbzG01HKSdJljdiL3cA"
+        />
       </head>
       <body className={inter.className}>
         {' '}
