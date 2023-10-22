@@ -14,7 +14,7 @@ export const userdata = (data, navigate) => async (dispatch) => {
       'https://inno-apac.onrender.com/api/auth',
       data,
       {
-        withCredentials: true,
+        withCredentials: 'include',
       }
     );
     dispatch(signIn(datas));
@@ -27,7 +27,7 @@ export const userdata = (data, navigate) => async (dispatch) => {
 export const userverify = () => async (dispatch) => {
   try {
     const datas = await axios.get('https://inno-apac.onrender.com/api/auth', {
-      withCredentials: true,
+      withCredentials: 'include',
     });
     dispatch(handeluser(datas));
   } catch (error) {
@@ -39,7 +39,7 @@ export const userLogout = (navigate) => async (dispatch) => {
   try {
     dispatch(loadingState());
     await axios.get('https://inno-apac.onrender.com/api/auth/logout', {
-      withCredentials: true,
+      withCredentials: 'include',
     });
     dispatch(logout());
     navigate.push('/Mangement/SignIn');

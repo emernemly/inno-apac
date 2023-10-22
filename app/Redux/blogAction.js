@@ -26,7 +26,7 @@ export const getblog = () => async (dispatch) => {
   try {
     dispatch(loadingState());
     const data = await axios.get('https://inno-apac.onrender.com/api/blog', {
-      withCredentials: true,
+      withCredentials: 'include',
     });
 
     dispatch(allBlog(data.data));
