@@ -106,24 +106,24 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className=" flex md:items-center md:justify-center flex-col text-white">
+        <div className=" flex md:justify-center flex-col text-white">
           <h2 className=" text-[20px] text-white mb-[35px] font-[600] mt-4">
             Get in touch
           </h2>
           <ul className="md:h-[198px]">
-            <li className="mb-[16px] flex md:items-center md:justify-center ">
+            <li className="mb-[16px] flex  ">
               <GoLocation className=" text-[#e6202d] text-[23px] mr-5 " />{' '}
-              <p className="w-[50%] ">
+              <p className="w-[70%] ">
                 Qinzhou Road, Xuhui District, Shanghai, Shanghai 201506, CN
               </p>
             </li>
-            <li className="mb-[16px] flex md:items-center md:justify-center ">
+            <li className="mb-[16px] flex  ">
               <BiPhoneCall className=" text-[#e6202d] text-[23px] mr-5 " />
-              <p className="w-[50%] ">+86-180 1713 2336 (Wechat)</p>
+              <p className="w-[70%] ">+86-180 1713 2336 (Wechat)</p>
             </li>
-            <li className="mb-[16px] flex md:items-center md:justify-center ">
+            <li className="mb-[16px] flex   ">
               <AiOutlineMail className=" text-[#e6202d] text-[23px] mr-5" />{' '}
-              <p className="w-[50%] ">zhangshuanghong@126.com</p>
+              <p className="w-[50px] ">zhangshuanghong@126.com</p>
             </li>
           </ul>
         </div>
@@ -165,6 +165,18 @@ const Footer = () => {
             </button>
           </form>
         </div>
+      </div>
+      <br></br>
+      <hr className="border-1 border-[#7d7c7f]"></hr>
+      <br></br>
+      <div className=" container mx-auto flex justify-between">
+        <p className=" text-white">
+          Chuangtai Incubator Management {'('}Shanghai{')'} limited company.
+          ICP备20008789号-2
+        </p>{' '}
+        <p className=" text-white">
+          Copyright © 2023 inno-apac. All Rights Reserved.
+        </p>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import Partner from './Partner/Partner';
-import BlogProfile from './componet/BlogProfile/BlogProfile';
+import BlogHome from './componet/BlogProfile/BlogHome';
 import ContactProfile from './componet/ContactProfile/ContactProfile';
 import HomeImage from './componet/IntroImages/HomeImage';
 import Methodology from './componet/Methodology/Methodology';
@@ -18,7 +18,7 @@ export default function Home() {
       <RequestCallBack />
       <Methodology />
       <ContactProfile />
-      <BlogProfile />
+      <BlogHome />
       <Partner />
     </main>
   );

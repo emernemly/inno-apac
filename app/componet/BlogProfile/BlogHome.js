@@ -6,26 +6,26 @@ import Link from 'next/link';
 import React, { useEffect } from 'react';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
-const BlogProfile = () => {
+const BlogHome = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getblog());
   }, []);
   const loading = useSelector((state) => state.blog.loading);
   const items = useSelector((state) => state.blog.items);
-  console.log(items.filter((el) => el));
+
   return (
     <section>
       {loading ? (
         <Loading />
       ) : (
         <div className="container mx-auto">
-          {/*           <h1 className="font-[700] text-[45px] mb-[50px]">Blog</h1>
-           */}{' '}
+          <h1 className="font-[700] text-[45px] mb-[50px]">Blog</h1>
+
           <div className=" gap-7 grid grid-rows-3 md:grid-rows-1 grid-cols-1 md:grid-cols-3">
             {' '}
             {items
-              .filter((el) => el)
+              .slice(0, 3)
               .reverse()
               .map((blog, i) => (
                 <div
@@ -67,4 +67,4 @@ const BlogProfile = () => {
   );
 };
 
-export default BlogProfile;
+export default BlogHome;

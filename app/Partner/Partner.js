@@ -11,8 +11,6 @@ const Partner = () => {
 
     { img: '/image5.webp' },
 
-    { img: '/image6.webp' },
-
     { img: '/image7.webp' },
 
     { img: '/image8.webp' },

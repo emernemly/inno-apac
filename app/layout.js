@@ -3,6 +3,8 @@ import Footer from './Footer/Footer';
 import ScrollUp from './componet/ScrollUp/ScrollUp';
 import './globals.css';
 import { Inter } from 'next/font/google';
+import StoreProvide from './Redux/storeProvide';
+import Loadingcompante from './loading';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.webp" sizes="any" />
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
           name="keywords"
           content="INNO-APAC, technology innovation, investment promotion, entrepreneurship services, incubation operations, talents recruitment,Overseas Talent, APAC region, innovation ecosystem, business consulting, China"
@@ -27,14 +29,17 @@ export default function RootLayout({ children }) {
           content="U9XgrZri9t5rKqA88avw_pPntbzG01HKSdJljdiL3cA"
         />
       </head>
-      <body className={inter.className}>
+      <StoreProvide>
         {' '}
-        <Suspense>
-          <ScrollUp />
-          {children}
-          <Footer />
-        </Suspense>
-      </body>
+        <body className={inter.className}>
+          {' '}
+          <Suspense fallback={<Loadingcompante />}>
+            <ScrollUp />
+            {children}
+            <Footer />
+          </Suspense>
+        </body>
+      </StoreProvide>
     </html>
   );
 }
