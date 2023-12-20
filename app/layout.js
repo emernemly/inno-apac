@@ -5,6 +5,8 @@ import './globals.css';
 import { Inter } from 'next/font/google';
 import StoreProvide from './Redux/storeProvide';
 import Loadingcompante from './loading';
+import FacebookPixel from './FacebookPixel';
+import FacebookPixels from './FacebookPixel';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -34,6 +36,7 @@ export default function RootLayout({ children }) {
         <body className={inter.className}>
           {' '}
           <Suspense fallback={<Loadingcompante />}>
+            <FacebookPixels />
             <ScrollUp />
             {children}
             <Footer />
