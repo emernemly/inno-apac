@@ -104,6 +104,12 @@ const Footer = () => {
                 Services
               </Link>
             </li>
+            <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
+              {'>'}{' '}
+              <Link className=" ml-2" href="/Privacy-Policy">
+                Privacy Policy
+              </Link>
+            </li>
           </ul>
         </div>
         <div className=" flex md:justify-center flex-col text-white">

@@ -54,6 +54,18 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
             }}
           />
         </React.Fragment>
+        <React.Fragment>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `_linkedin_partner_id = "5581426"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); `,
+            }}
+          />
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html: `<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=5581426&fmt=gif" />`,
+            }}
+          />
+        </React.Fragment>
       </head>
       <StoreProvide>
         {' '}
