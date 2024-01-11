@@ -92,14 +92,16 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
       <StoreProvide>
         {' '}
         <body className={inter.className}>
-          {/* <noscript>
-            <iframe
+          <noscript
+            dangerouslySetInnerHTML={{
+              __html: ` <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-W2X6XBBC"
               height="0"
               width="0"
               style={{ display: 'none', visibility: 'hidden' }}
-            ></iframe>
-          </noscript>{' '} */}
+            ></iframe>`,
+            }}
+          />{' '}
           <Suspense fallback={<Loadingcompante />}>
             <ScrollUp />
             {children}
