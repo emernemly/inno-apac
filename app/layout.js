@@ -43,9 +43,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
           <noscript
             dangerouslySetInnerHTML={{
-              __html: `<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
- />`,
+              __html: ` <iframe
+              src="https://www.googletagmanager.com/ns.html?id=GTM-W2X6XBBC"
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+            ></iframe>`,
             }}
           />
         </React.Fragment>
@@ -89,14 +92,14 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
       <StoreProvide>
         {' '}
         <body className={inter.className}>
-          <noscript>
+          {/* <noscript>
             <iframe
               src="https://www.googletagmanager.com/ns.html?id=GTM-W2X6XBBC"
               height="0"
               width="0"
               style={{ display: 'none', visibility: 'hidden' }}
             ></iframe>
-          </noscript>{' '}
+          </noscript>{' '} */}
           <Suspense fallback={<Loadingcompante />}>
             <ScrollUp />
             {children}
