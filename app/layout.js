@@ -94,7 +94,7 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
               src="https://www.googletagmanager.com/ns.html?id=GTM-W2X6XBBC"
               height="0"
               width="0"
-              style="display:none;visibility:hidden"
+              style={{ display: 'none', visibility: 'hidden' }}
             ></iframe>
           </noscript>{' '}
           <Suspense fallback={<Loadingcompante />}>
