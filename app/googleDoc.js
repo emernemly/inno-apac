@@ -3,7 +3,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import TagManager from 'react-gtm-module';
 
-const googleDoc = () => {
+const GoogleDoc = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const tagManagerArgs = {
@@ -15,4 +15,4 @@ const googleDoc = () => {
   return null;
 };
 
-export default googleDoc;
+export default GoogleDoc;
