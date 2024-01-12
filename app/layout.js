@@ -1,19 +1,13 @@
-import { Suspense, useEffect } from 'react';
+import { Suspense } from 'react';
 import Footer from './Footer/Footer';
 import ScrollUp from './componet/ScrollUp/ScrollUp';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import StoreProvide from './Redux/storeProvide';
 import Loadingcompante from './loading';
-import TagManager from 'react-gtm-module';
 import React from 'react';
-
+import GoogleDoc from './googleDoc';
 const inter = Inter({ subsets: ['latin'] });
-
-const tagManagerArgs = {
-  gtmId: 'GTM-W2X6XBBC',
-};
-TagManager.initialize(tagManagerArgs);
 
 export const metadata = {
   title: 'Create Next App',
@@ -35,6 +29,17 @@ export default function RootLayout({ children }) {
           name="google-site-verification"
           content="U9XgrZri9t5rKqA88avw_pPntbzG01HKSdJljdiL3cA"
         />
+        {process.env.NODE_ENV === 'production' && (
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2X6XBBC')`,
+            }}
+          ></script>
+        )}
         {/*     <React.Fragment>
           <script
             dangerouslySetInnerHTML={{
@@ -84,7 +89,6 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
         </React.Fragment>
       </head>
       <StoreProvide>
-        {' '}
         <body className={inter.className}>
           {' '}
           {/*  <iframe
@@ -92,6 +96,19 @@ src="https://www.facebook.com/tr?id=1233224094300219&ev=PageView&noscript=1"
             height="0"
             width="0"
           ></iframe> */}
+          {process.env.NODE_ENV === 'production' && (
+            <noscript
+              dangerouslySetInnerHTML={{
+                __html: `<iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-W2X6XBBC"
+            height="0"
+            width="0"
+            style="display:none;visibility:hidden"
+          ></iframe>`,
+              }}
+            ></noscript>
+          )}
+          <GoogleDoc />
           <Suspense fallback={<Loadingcompante />}>
             <ScrollUp /> {children}
             <Footer />
