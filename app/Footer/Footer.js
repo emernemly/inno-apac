@@ -62,21 +62,27 @@ const Footer = () => {
             brighter future
           </p>
           <div className="flex gap-3 ">
-            <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
-              <a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61552213777195"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {' '}
+              <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
                 <BiLogoFacebook />
-              </a>
-            </div>
-            <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
-              <a>
-                <BiLogoInstagramAlt />
-              </a>
-            </div>
-            <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
-              <a>
+              </div>{' '}
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/inno-apac/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {' '}
+              <div className=" p-3 text-white bg-[#2f333b] rounded-full text-[14px] hover:bg-[#e6202d] cursor-pointer">
                 <BiLogoLinkedin />
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         </div>
         <div className=" flex md:items-center justify-center flex-col text-white">

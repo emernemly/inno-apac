@@ -5,7 +5,7 @@ const OverseasTalentcontent = () => {
   return (
     <div>
       <div className=" relative w-[100%] h-[300px]">
-        <Image src="/serviceown.webp" alt="Service" fill={true} />
+        <Image src="/talent.webp" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
@@ -97,14 +97,12 @@ const OverseasTalentcontent = () => {
           <ul>
             <li className=" my-3">
               {' '}
-              {'>'} PhD degree in science, technology or engineering field
+              {'>'} Scholars, researchers and Professors holding PhD degree in{' '}
+              science, technology or engineering field.
             </li>
+            <li className=" my-3">{'>'} Top 500 companies&apos; Engineers </li>
             <li className=" my-3">
-              {'>'} At least three years full time working experience.
-            </li>
-            <li className=" my-3">
-              {'>'} Full time working at top 100 universities or top 500
-              companies is preferred.
+              {'>'} At least two years full time working experience.
             </li>
           </ul>
         </div>
@@ -173,14 +171,11 @@ const OverseasTalentcontent = () => {
             <li className=" my-3">
               {'>'} Acquire knowledge and practical insights
             </li>
-            <li className=" my-3">
-              {'>'} unparalleled journey into the realm or Chinese culture
-            </li>
           </ul>
         </div>
         <br></br>
         <a
-          href="http://tinyurl.com/china-tech-tour"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf1HBXItXjrqokluN07bBc_fLycg331IZeeonyGGUyVqnIR2A/viewform"
           target="_blank"
           rel="noreferrer"
         >
