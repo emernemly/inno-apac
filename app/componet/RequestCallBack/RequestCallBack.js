@@ -181,7 +181,7 @@ const RequestCallBack = () => {
             disabled={loading && true}
             className=" font-[700] bg-[#e6202d] text-white md:w-[50%] px-5 py-3"
           >
-            {!loading ? '   SUMBIT ENQUIRY' : <Spinner />}
+            {!loading ? '   SUBMIT ENQUIRY' : <Spinner />}
           </button>
         </form>
       </div>
