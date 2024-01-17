@@ -5,7 +5,7 @@ const OverseasTalentcontent = () => {
   return (
     <div>
       <div className=" relative w-[100%] h-[300px]">
-        <Image src="/talent.webp" alt="Service" fill={true} />
+        <Image src="/serviceown.webp" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
@@ -175,7 +175,7 @@ const OverseasTalentcontent = () => {
         </div>
         <br></br>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSf1HBXItXjrqokluN07bBc_fLycg331IZeeonyGGUyVqnIR2A/viewform"
+          href="http://tinyurl.com/china-tech-tour"
           target="_blank"
           rel="noreferrer"
         >

@@ -18,6 +18,16 @@ const SideBar = () => {
             Overseas Talent{' '}
           </li>
         </Link>
+        <Link href="/Services/Chief-Scientist">
+          <li
+            className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
+              pathname === '/Services/TalentProgram' && 'bg-white'
+            }`}
+          >
+            Chief Scientist{' '}
+          </li>
+        </Link>
+
         <Link href="/Services/InvestmentPromotion">
           <li
             className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
