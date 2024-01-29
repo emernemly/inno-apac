@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
-
+import { BiLogoLinkedin } from 'react-icons/bi';
 const OverseasTalentcontent = () => {
   return (
     <div>
-      <div className=" relative w-[100%] h-[300px]">
-        <Image src="/serviceown.webp" alt="Service" fill={true} />
+      <div className=" relative w-[100%] h-[400px]">
+        <Image src="/team.jpeg" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
@@ -124,11 +124,21 @@ const OverseasTalentcontent = () => {
                 <p>
                   {' '}
                   <span className=" text-[#e6202d]">
-                    Founder & Ct0 @INNO-APAC
+                    Founder & CEO @INNO-APAC
                   </span>{' '}
                   <br />
                   Tech Innovator & Investor
                 </p>
+                <a
+                  href="https://www.linkedin.com/in/hunter-zhang-7a213b90/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {' '}
+                  <div className=" p-3 text-white bg-[#2f333b] text-[14px] hover:bg-[#e6202d] cursor-pointer">
+                    Linkedin
+                  </div>
+                </a>
               </div>
             </div>
             <div className=" flex text-center flex-col items-center">
@@ -149,6 +159,16 @@ const OverseasTalentcontent = () => {
                   <br />
                   Relations @INNO-APAC
                 </p>
+                <a
+                  href="https://www.linkedin.com/in/yosri-ben-salah-1993y/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {' '}
+                  <div className=" p-3 text-white bg-[#2f333b] text-[14px] hover:bg-[#e6202d] cursor-pointer">
+                    Linkedin
+                  </div>
+                </a>
               </div>
             </div>
           </div>
@@ -162,8 +182,8 @@ const OverseasTalentcontent = () => {
           <ul>
             <li className=" my-3">
               {' '}
-              {'>'} Free of charge trip including domestic transportation,
-              hotels, foods, sightseeing, visits, learning, etc
+              {'>'} Free of charge trip including international and domestic
+              transportation, hotels, foods, sightseeing, visits, learning, etc
             </li>
             <li className=" my-3">
               {'>'} Opportunity to develop your career & business in China

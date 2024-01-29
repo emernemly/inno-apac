@@ -187,7 +187,7 @@ const Footer = () => {
           ICP备20008789号-2
         </p>{' '}
         <p className=" text-white">
-          Copyright © 2023 inno-apac. All Rights Reserved.
+          Copyright © 2024 inno-apac. All Rights Reserved.
         </p>
       </div>
     </section>
