@@ -195,7 +195,7 @@ const OverseasTalentcontent = () => {
         </div>
         <br></br>
         <a
-          href="http://tinyurl.com/china-tech-tour"
+          href="https://docs.google.com/forms/d/1nwTh6Q6STtNGcsLcjgE-ImftpBpEk1oX0qSz8zTs6bI/edit#responses"
           target="_blank"
           rel="noreferrer"
         >
