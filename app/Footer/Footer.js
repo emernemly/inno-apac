@@ -116,6 +116,16 @@ const Footer = () => {
                 Privacy Policy
               </Link>
             </li>
+            <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
+              {'>'}{' '}
+              <Link
+                className=" ml-2"
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+              >
+                Services
+              </Link>
+            </li>
           </ul>
         </div>
         <div className=" flex md:justify-center flex-col text-white">
