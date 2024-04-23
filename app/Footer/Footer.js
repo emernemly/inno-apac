@@ -189,7 +189,7 @@ const Footer = () => {
             href="https://beian.miit.gov.cn/"
             target="_blank"
           >
-            备20008789号-2
+            20008789号-2
           </a>
         </p>{' '}
         <p className=" text-white">
