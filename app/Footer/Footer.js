@@ -116,16 +116,6 @@ const Footer = () => {
                 Privacy Policy
               </Link>
             </li>
-            <li className="mb-[14px] hover:text-[#e6202d] cursor-pointer">
-              {'>'}{' '}
-              <Link
-                className=" ml-2"
-                href="https://beian.miit.gov.cn/"
-                target="_blank"
-              >
-                Services
-              </Link>
-            </li>
           </ul>
         </div>
         <div className=" flex md:justify-center flex-col text-white">
@@ -193,8 +183,14 @@ const Footer = () => {
       <br></br>
       <div className=" container mx-auto flex justify-between">
         <p className=" text-white">
-          Chuangtai Incubator Management {'('}Shanghai{')'} limited company.
-          ICP备20008789号-2
+          Chuangtai Incubator Management {'('}Shanghai{')'} limited company. ICP{' '}
+          <a
+            className=" ml-2"
+            href="https://beian.miit.gov.cn/"
+            target="_blank"
+          >
+            备20008789号-2
+          </a>
         </p>{' '}
         <p className=" text-white">
           Copyright © 2024 inno-apac. All Rights Reserved.
