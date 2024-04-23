@@ -185,7 +185,7 @@ const Footer = () => {
         <p className=" text-white">
           Chuangtai Incubator Management {'('}Shanghai{')'} limited company. ICP{' '}
           <a
-            className=" ml-2"
+            className=" ml-2 z-20 relative"
             href="https://beian.miit.gov.cn/"
             target="_blank"
           >
