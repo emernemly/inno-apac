@@ -9,7 +9,26 @@ const SideBar = () => {
     <div className="bg-[#f7f8f9] p-5">
       <h4 className=" font-[600] text-[20px] mb-[20px]">Our Services</h4>
       <ul className=" ">
-        <Link href="/Services/OverseasTalent">
+        <Link href="/Services/ChinaTechN">
+          <li
+            className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
+              pathname === '/Services/OverseasTalent' && 'bg-white'
+            }`}
+          >
+            China Tech Tour November 2024{' '}
+          </li>
+        </Link>
+        <Link href="/Services/China-Tech-Tour-December-2024">
+          <li
+            className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
+              pathname === '/Services/China-Tech-Tour-December-2024' &&
+              'bg-white'
+            }`}
+          >
+            China Tech Tour December 2024{' '}
+          </li>
+        </Link>
+        {/* <Link href="/Services/China-Tech-Tour-December-2024">
           <li
             className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
               pathname === '/Services/OverseasTalent' && 'bg-white'
@@ -17,7 +36,7 @@ const SideBar = () => {
           >
             Overseas Talent{' '}
           </li>
-        </Link>
+        </Link> */}
         <Link href="/Services/Chief-Scientist">
           <li
             className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
@@ -55,6 +74,26 @@ const SideBar = () => {
           >
             {' '}
             Incubation Operation
+          </li>
+        </Link>
+        <Link href="/Services/UK-EU-Talent-Pogram">
+          <li
+            className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
+              pathname === '/Services/UK-EU-Talent-Pogram' && 'bg-white'
+            }`}
+          >
+            {' '}
+            UK-EU Talent Pogram
+          </li>
+        </Link>
+        <Link href="/Services/China-Tech-Tour-january">
+          <li
+            className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
+              pathname === '/Services/China-Tech-Tour-january' && 'bg-white'
+            }`}
+          >
+            {' '}
+            China Tech Tour january 2025
           </li>
         </Link>
       </ul>

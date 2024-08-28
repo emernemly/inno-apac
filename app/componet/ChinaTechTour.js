@@ -1,30 +1,40 @@
 import Image from 'next/image';
 import React from 'react';
 import { BiLogoLinkedin } from 'react-icons/bi';
-const OverseasTalentcontent = () => {
+const ChinaTechTour = () => {
   return (
     <div>
       <div className=" relative w-[100%] h-[400px]">
-        <Image src="/techtourA.png" alt="Service" fill={true} />
+        <Image src="/ChinaTechTourA.png" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
-          Overseas Talent
+          China Tech Tour 2025
         </h1>
-        <p>
-          China&apos;s technological advancements have made it a global ledder
-          in innovation. this exclusive trip offers talented individuals a
-          chance to explore China{"'"}s thriving ecosystems, visit tech giants,
-          universities and startups, and gain insights into key sectors like
-          GreenTech, EV, IoT, AI, Digital Health. Smart Factories, OEM, ond
-          E-commerce. Join us to witness groundbreaking innovations that have
-          propelled China to the forefront of the global tech Industry
-        </p>
 
+        <p>
+          Significant investment and technological advancement have made China a
+          global leader in innovation. The China Tech Tour allows skilled
+          academics to explore this thriving environment, visit tech giants such
+          as Alibaba, top institutes such as Tsinghua University and many
+          exciting startups, gaining insights into key sectors like GreenTech,
+          EV&apos; IoT&apos; AI&apos; Digital Health&apos; Smart Factories&apos;
+          OEM, and E-commerce!
+        </p>
+        <br></br>
+        <p>
+          Following the success of our 2024 China Tech Tour for academics, in
+          which 15 skilled scientists, technologists and engineers visited
+          Chinese technological ecosystems, as well as sightseeing tours and
+          cultural experiences across the week-long tour, we offer academics the
+          opportunity to sign up once again for this free once-in-a-lifetime
+          trip! Join us and witness the groundbreaking innovations that have
+          propelled China to the forefront of the technology industry!
+        </p>
         <br></br>
         <div className=" bg-[#dadcdf] p-5  relative  h-[700px]">
           {' '}
-          <Image src="/techtour.png" alt="Beijing" fill={true} />
+          <Image src="/TechtourB.png" alt="Beijing" fill={true} />
         </div>
         <br></br>
         <div className=" mb-5">
@@ -68,7 +78,7 @@ const OverseasTalentcontent = () => {
         </div>
         <br></br>
         <a
-          href="https://docs.google.com/forms/d/1jU03uUBUWxTMC2mo02V92Q-MlBZcNmHKMxf0KrB7128/viewform?edit_requested=true"
+          href="Https://tinyurl.com/ChinaTT2025"
           target="_blank"
           rel="noreferrer"
         >
@@ -81,4 +91,4 @@ const OverseasTalentcontent = () => {
   );
 };
 
-export default OverseasTalentcontent;
+export default ChinaTechTour;
