@@ -5,7 +5,7 @@ const OverseasTalentcontent = () => {
   return (
     <div>
       <div className=" relative w-[100%] h-[400px]">
-        <Image src="/uk.png" alt="Service" fill={true} />
+        <Image src="/Uk.png" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
