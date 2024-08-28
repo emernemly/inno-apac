@@ -2,7 +2,7 @@
 import React from 'react';
 
 import Nav from '../Nav';
-const UkImage = () => {
+const UkImages = () => {
   return (
     <div
       className={`w-[100%] h-[450px] relative bg-[url('/serviceImage.webp')] bg-no-repeat bg-cover bg-center`}
@@ -19,4 +19,4 @@ const UkImage = () => {
   );
 };
 
-export default UkImage;
+export default UkImages;
