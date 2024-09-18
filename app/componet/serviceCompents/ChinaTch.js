@@ -1,11 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import { BiLogoLinkedin } from 'react-icons/bi';
 const ChinaTch = () => {
   return (
     <div>
       <div className=" relative w-[100%] h-[400px]">
-        <Image src="/techtourA.png" alt="Service" fill={true} />
+        <Image src="/bannerTechT.jpg" alt="Service" fill={true} />
       </div>
       <div>
         <h1 className="font-[700] text-[45px] mb-[10px] mt-[50px]">
@@ -18,9 +17,16 @@ const ChinaTch = () => {
           the upcoming second edition. Participants not only engaged in research
           and business collaborations but also enjoyed cultural experiences and
           sightseeing throughout the week-long tour. For more details, check our
-          media coverage here:
-        </p>
-
+          media coverage here:{' '}
+          <a
+            href="https://www.chinadaily.com.cn/a/202405/17/WS6646eed8a31082fc043c7aed.html"
+            target="_blank"
+            rel="noreferrer"
+            className=" text-blue-400"
+          >
+            Overseas PhD talents explore tech opportunities in China
+          </a>{' '}
+        </p>{' '}
         <br></br>
         <div className=" bg-[#dadcdf] p-5  relative  h-[700px]">
           {' '}
