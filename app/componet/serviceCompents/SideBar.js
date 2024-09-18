@@ -9,10 +9,10 @@ const SideBar = () => {
     <div className="bg-[#f7f8f9] p-5">
       <h4 className=" font-[600] text-[20px] mb-[20px]">Our Services</h4>
       <ul className=" ">
-        <Link href="/Services/ChinaTechN">
+        <Link href="/Services/ChinaTchPage">
           <li
             className={` my-5 border-b-[1px] p-3 border-b-[#dadcdf] hover:bg-white ${
-              pathname === '/Services/OverseasTalent' && 'bg-white'
+              pathname === '/Services/ChinaTchPage' && 'bg-white'
             }`}
           >
             China Tech Tour November 2024{' '}
